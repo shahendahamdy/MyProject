@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <style>
+    body{ 
+        background: url(5.jpg) no-repeat center center fixed; 
+        background-size: cover;
+         height: 100%;
+         box-sizing: border-box;
+        }
+           .first{
+            overflow: hidden;
+        background-color:rgba(0, 0, 0, 0.7);
+       width: 100% ;
+           }
+           .first  a{
+        float: left;
+        display: block;
+        color:rgb(255, 255, 255);
+        text-align: center;
+        font-weight: bold;
+        padding: 14px 16px;
+       text-decoration: none;
+       opacity: 1;
+      }
+      .first a:hover{
+          background:rgb(221, 162, 132);
+          color:black;
+      }
+      
+      .second1{
+        float: left;
+        display: block;
+        overflow: hidden;
+       width: 20% ;
+       position: absolute;
+        top:30%;
+        left:3%;
+      }
+      .second1 h1{ 
+color:white;
+text-underline-position: below;
+font-weight: 600;      
+font-size: 60px;
+      }
+      .second1 table{
+  border-collapse: collapse;
+  width: 100%;
+ 
+
+      }
+      .second1 td, th {
+        font-family: arial, sans-serif;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color:white;
+      }
+      .second2{
+          background-color:rgba(0, 0, 0, 0.3);
+          width:40%;
+            position: absolute;
+            top:30%;
+            right:20% ;
+            padding: 20px;
+            color:white;  
+            font-weight: bold;
+    }
+   input ,textarea{
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+   }
+
+        </style>
+    </head>
+    <body>
+        <div class="first">
+            <a href="">Home</a>
+            <a href="">Books</a>
+            <a href="">Membership</a>
+            <a href="">contact</a>
+            <a href="">About us</a>
+        </div>
+            <div class="second">
+                  <div class="second1">
+                                <h1>  Contact Us </h1> 
+                        <table>
+                        <tr>
+                        <th> Mobile </th>
+                        <td>01112345679</td>
+                        </tr>
+                        <tr>
+                        <th>Email</th>
+                        <td> MyLibrary@gmail.com</td>
+                        </tr>
+                        </table>
+                   </div>
+                  <div class="second2">
+                        <form id="contact" method="post">
+                                <h3>Quick Contact</h3>
+                                <h4>Leave us a massage</h4>
+
+                    <label for="name"> Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your name.."><br>
+                    
+                    <label for="Email"> Email</label><br>
+                    <input type="email" id="Email" name="Email" placeholder="email@example.com.."><br>
+ 
+                    <label for="mobile"> Your Mobile</label><br>
+                    <input type="number" id="mobile" name="mobile" placeholder="Your mobile phone.."><br>                   
+                    
+                    <label for="subject">Your massage</label><br>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:70%"></textarea>
+<br>
+                    <input type="submit" value="send">
+                              </form>
+                  </div>   
+            </div>
+
+
+
+    </body>
+</html>
