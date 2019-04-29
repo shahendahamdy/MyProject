@@ -1,0 +1,83 @@
+body {
+    background-image: url(w2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+b{color: #fff;}
+.first{
+        overflow: hidden;
+        background-color:rgba(0, 0, 0, 0.7);
+       width: 100% ;
+
+      }
+      .first  a{
+        float: left;
+        display: block;
+        color:rgb(255, 255, 255);
+        text-align: center;
+        font-weight: bold;
+        padding: 14px 16px;
+       text-decoration: none;
+       opacity: 1;
+      }
+      .first a:hover{
+          background:rgb(207, 126, 47);
+      }
+      
+header {
+    text-align: center;
+    font-size: 30pt;
+    padding: 5px;
+margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color : rgb(207, 126, 47);
+    padding: none;
+}
+.one{ 
+    background-color: rgba(0, 0, 0, 0.8);
+width:50%;
+padding-bottom: 10px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    display: block;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: white;
+    font-family: "Agency FB";
+    font-size: 14pt
+}
+
+input[type="radio"] {
+    margin-left: 30px
+}
+textarea {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    color: #fff;
+    font-family: "Agency FB";
+    font-size: 14pt;
+    height: 100px
+}
+
+input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+   
+    padding: 3px;
+    color:rgb(207, 126, 47);
+    font-size: 20pt;
+    font-family: "Agency FB";
+}
